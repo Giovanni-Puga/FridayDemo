@@ -16,7 +16,7 @@ jdk: openjdk15
 # In our case it will be 'mvn install' followed by 'mvn test'
 
 # Change jobs to run Jacoco code coverage:
-# Jacoco needs  mvn clean verify to run
+# Jacoco needs  mvn clean verify to run asdf
 jobs:
   include:
     - script: mvn clean verify package
